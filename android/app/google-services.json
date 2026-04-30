@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "197487508921",
+    "project_id": "intro-dev-mobile",
+    "storage_bucket": "intro-dev-mobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197487508921:android:4624b9148dcff2e40d8a68",
+        "android_client_info": {
+          "package_name": "com.example.degraded_points_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197487508921-ulgdvcrcbr4ifgli8t8sob3m4b6ipa1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.degraded_points_app",
+            "certificate_hash": "c5269141fdabd3c5cec533ab982207c7cd7ad1bd"
+          }
+        },
+        {
+          "client_id": "197487508921-j0d1a2tu68p8vtlfenanbsdhha1btpqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNemWhQZKiFL5LzRlvVA-aztxEPTle0m8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197487508921-j0d1a2tu68p8vtlfenanbsdhha1btpqt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "197487508921-ipbniki46e6cui1jga01semlfip9grp5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.degradedPointsApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isVerified() {
+      return isSignedIn() && request.auth.token.email_verified == true;
+    }
+
+    match /reports/{reportId} {
+      allow create: if isVerified()
+        && request.resource.data.userId == request.auth.uid
+        && request.resource.data.status == 'new'
+        && request.resource.data.images is string;
+
+      // For a global city map: allow reads to signed-in users.
+      // If you want the map to be fully public, change to: allow read: if true;
+      allow read: if isSignedIn();
+
+      // Users can only update their own reports
+      allow update, delete: if isSignedIn() && resource.data.userId == request.auth.uid;
+    }
+
+    match /warnings/{warningId} {
+      allow read: if isSignedIn();
+      allow write: if false;
+    }
+  }
+}
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>197487508921-ipbniki46e6cui1jga01semlfip9grp5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.197487508921-ipbniki46e6cui1jga01semlfip9grp5</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>197487508921-ulgdvcrcbr4ifgli8t8sob3m4b6ipa1k.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBqVJqJF8pQLdocI5diRcy4MJ4k19KMNxU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>197487508921</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.degradedPointsApp</string>
+	<key>PROJECT_ID</key>
+	<string>intro-dev-mobile</string>
+	<key>STORAGE_BUCKET</key>
+	<string>intro-dev-mobile.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:197487508921:ios:b33c9a61e78e6f900d8a68</string>
+</dict>
+</plist>
