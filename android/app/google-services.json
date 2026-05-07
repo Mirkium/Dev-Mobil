@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "197487508921-2a8295egj0vuo73s56srkv99mdl92691.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.degraded_points_app",
+            "certificate_hash": "06971067d10bb9e12baa36fd4bfb9a87737b5b27"
+          }
+        },
+        {
           "client_id": "197487508921-ulgdvcrcbr4ifgli8t8sob3m4b6ipa1k.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
